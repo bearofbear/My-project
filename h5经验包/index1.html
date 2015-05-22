@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content= "" />
+<meta name="viewport" content="width=device-width,initial-scale= 1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+<link rel="shortcut icon" href="http://m.jia.com/Public/img//wap/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="http://ued.jia.com/css/mobile/head.css" />
+<link rel="stylesheet" type="text/css" href="http://ued.jia.com/css/mobile/jiahome.css"/>
+<script type="text/javascript" src="http://tjj.jia.com/tjj.min.js"></script>
+<script type="text/javascript" src="http://m.jia.com/Public/js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="http://ued.jia.com/js/mobile/zepto.min.js"></script>
+<script type="text/javascript" src="http://ued.jia.com/js/mobile/loading.js"></script>
+<script type="text/javascript" src="http://ued.jia.com/js/mobile/swiper.min.js"></script>
+<script>
+var TJJ={};
+TJJ.UserCookieName = "JIA_user_name";
+TJJ.AreaCookieName = "city_id";
+TJJ.t1 = (new Date).getTime();
+TJJ.action = function(){};
+TJJ.track= function(){};
+</script>
+</head>
+<body style="max-width:640px;margin:0 auto;">
+<div data-role="page" data-theme="z" data-ajax="false" data-dom-cache="false" id="jia_main">
+	<header role="banner" data-role="header" data-theme="z" class="header ui-header ui-bar-z">
+		<div class="lgbox">
+		  <h1 class="tg_title"><a href="javascript:void(0);" title="" class="lgtxt ui-link">齐家网</a></h1>
+		  <a href="http://m.jia.com/city" class="city_exit ui-link" data-ajax="false" title="" tjjj="wap.select.city">上海<b class="arrow_city"></b></a>
+		</div>
+		<span>
+        <a href="http://m.jia.com/jia/show_search?real=mall" title="" class="header_search search  pr ui-link" tjjj="wap.index.search">search</a>
+        </span>		<span><a href="http://m.jia.com/i" title="" class="i_person pr ui-link" rel="external">personal</a></span>
+	</header>  
+    <div data-role="content" class="ui_content_m"> 
+		<section id="banner_box" class="box_swipe">
+					<ul>
+					<li id="ad_1006"></li>
+					<li id="ad_1007"></li>
+					<li id="ad_1008"></li>
+					<li id="ad_1009"></li>
+					<li id="ad_1010"></li>
+					<li id="ad_1011"></li>
+					</ul>
+					<ol class="zx_points index_points">
+                 	</ol>
+	    </section>	
+	    <script type="text/javascript">
+			$(function(){
+				//mSlider.slider("J_slider",".img",".zx_points");
+				var imgCount=$("#banner_box ul li img").length;
+				for(var i=0;i<imgCount;i++){
+					if(i==0){
+						$(".zx_points").append("<li class='cur'></li>");
+					}else{
+						$(".zx_points").append("<li ></li>");
+					}
+				}
+				$("#banner_box li a").each(function(i,e){
+					$(e).removeAttr("target");
+				})
+				new Swipe(document.getElementById('banner_box'), {
+					speed:300,
+					auto:5000,
+					callback: function(){
+						var lis = $(this.element).next("ol").children();
+						lis.removeClass("cur").eq(this.index).addClass("cur");
+					}
+				});
+			})
+		</script>  
+			
+	    <!-- 首页导航 -->    
+       	<section class="mb-12">
+        	<ul class="itemnav clearfix">
+	        	<a href="http://m.jia.com/tg/shanghai" title="现场团购" tjjj="wap.index.xctg" rel="external">
+		            <li> 
+		            <strong class="itemico tmo1"></strong>
+		          	<h3 class="itemtxt">现场团购</h3>
+		        	</li>
+	            </a> 
+	            <a href="http://m.jia.com/new_zhuangxiu/index" title="装修设计" tjjj="wap.index.zxsj" rel="external">
+	           		<li> 
+	           		<strong class="itemico tmo2"></strong>
+	              	<h3 class="itemtxt">装修公司</h3>
+	           		</li>
+            	</a>
+				 <a href="http://m.jia.com/mall/hd/tm" title="品牌特卖" tjjj="jrtg.gt.pptm" rel="external">
+					<li style="position:relative;"> 
+                     <i class="price-cut">满千减百</i>
+		            <strong class="itemico tmo3"></strong>
+		              <h3 class="itemtxt">品牌特卖</h3>
+		            </li>
+	            </a> 
+	           
+	            <a href="http://m.jia.com/mall/hd/category" title="建材商城" tjjj="wap.index.jiancai" rel="external">
+	            	<li class="b-r10"> 
+	            	<strong class="itemico tmo4"></strong>
+	             	<h3 class="itemtxt">建材商城</h3>
+	            	</li>
+          		</a>
+          		<a href="http://m.jia.com/jiaju/hd/category" title="家居商城" tjjj="wap.index.jiaju" rel="external">
+	            	<li class="b-r10"> <strong class="itemico tmo5"></strong>
+	              	<h3 class="itemtxt">家居商城</h3>
+	            	</li>
+            	</a> 
+	            <a href="http://m.jia.com/tuku" title="图库" tjjj="jrtg.gt.qjtk" rel="external">
+		            <li class="b-r10"> <strong class="itemico tmo6"></strong>
+		              <h3 class="itemtxt">图库</h3>
+		            </li>
+	            </a> 	  
+	             <a href="http://m.jia.com/zixun" title="资讯" tjjj="wap.jia.index.zixun" rel="external">
+		            <li class="b-r10"> <strong class="itemico tmo7"></strong>
+		              <h3 class="itemtxt">资讯</h3>
+		            </li>
+	            </a> 	  
+	            				<a href="http://m.jia.com/bbs/shanghai" title="齐家论坛" tjjj="jrtg.gt.bbs" rel="external">
+								
+		            <li> 
+		            <strong class="itemico tmo8"></strong>
+		              <h3 class="itemtxt">齐家论坛</h3>
+		            </li>
+	            </a>         
+	                  		</ul>
+        </section>
+		<!-- 秒杀开始 -->
+		<!--<section class="seckill" id="seckill">
+        </section>-->
+
+
+
+				<!-- 广告位 -->
+		<section class="add_ul1 mb-12 clearfix">
+			<div class="div-1">
+				
+					<span id="ad_1012">
+					
+					</span>
+									</span>
+			</div>
+			<div class="div-2">
+				<span class="a-1" id="ad_1013">
+				
+				</span>	
+				<span class="a-2" id="ad_1014">
+				
+				</span>
+				<span class="a-3" id="ad_1015">
+			 
+				</span>
+			</div>
+		</section>		<!--
+		
+		
+		
+		
+		-->
+
+				<!--广告位-->
+		
+		
+		<section class="mb-12">
+			<p class="hl_img" id="ad_1016"></p>
+		</section>
+
+        <!-- 秒杀结束 -->
+		<section class="content_l">
+			   	<ul>
+			        <li class="b-r10" id="ad_1017"> 
+					</li>
+			        <li class="b-r10" id="ad_1018"> 
+					</li>
+					<li class="b-r10" id="ad_1019"> 
+					</li>
+			        <li class="b-r10" id="ad_1020"> 
+					</li>    
+	      		</ul>
+			</div>        <!-- 建材 -->
+       <section class="newindex_item_m mb-12">
+        	<dl class="newindex_dl clearfix">
+            	<dt id="ad_1021">
+				</dt>
+                <dd>
+                	<ul class="cate_ul clearfix">
+						<li class="list_li"><a rel="external" tjjj="wap.index.jc.0" title="开关/插座" href='http://m.jia.com/mall/list/10010203/'>开关/插座</a></li><li class="list_li"><a rel="external" tjjj="wap.index.jc.1" title="马桶" href='http://m.jia.com/mall/list/10020209/'>马桶</a></li><li class="list_li"><a rel="external" tjjj="wap.index.jc.2" title="水槽" href='http://m.jia.com/mall/list/10020109/'>水槽</a></li><li class="list_li"><a rel="external" tjjj="wap.index.jc.3" title="龙头" href='http://m.jia.com/mall/list/1002020636/'>龙头</a></li><li class="list_li"><a rel="external" tjjj="wap.index.jc.4" title="橱柜定制" href='http://m.jia.com/mall/list/10020104/'>橱柜定制</a></li><li class="list_li"><a rel="external" tjjj="wap.index.jc.5" title="涂料" href='http://m.jia.com/mall/list/100209/'>涂料</a></li>                    </ul>
+                </dd>
+                <dd class="last">
+                	<a title="" href='http://m.jia.com/mall/category' tjjj="jrtg.jcbq.xsqb">显示全部<b class="showall"></b></a>
+                </dd>
+            </dl>
+       </section>
+         <!-- 家居-->
+       <section class="newindex_item_m mb-12">
+        	<dl class="newindex_dl clearfix">
+            	<dt id="ad_1022">
+				</dt>
+                <dd>
+                	<ul class="cate_ul clearfix">
+					<li class="list_li"><a tjjj="wap.index.jj.0" title="弹簧床垫" href='http://m.jia.com/jiaju/list/151101/'>弹簧床垫</a></li><li class="list_li"><a tjjj="wap.index.jj.1" title="衣柜/书柜/柜类" href='http://m.jia.com/jiaju/list/150805/'>衣柜/书柜/柜类</a></li><li class="list_li"><a tjjj="wap.index.jj.2" title="沙发分类" href='http://m.jia.com/jiaju/list/1510/'>沙发分类</a></li><li class="list_li"><a tjjj="wap.index.jj.3" title="乳胶床垫" href='http://m.jia.com/jiaju/list/151102/'>乳胶床垫</a></li><li class="list_li"><a tjjj="wap.index.jj.4" title="床品套件" href='http://m.jia.com/jiaju/list/150607/'>床品套件</a></li><li class="list_li"><a tjjj="wap.index.jj.5" title="被子被芯" href='http://m.jia.com/jiaju/list/150606/'>被子被芯</a></li>                    </ul>
+                </dd>
+                <dd class="last">
+                	<a title="" href='http://m.jia.com/jiaju/category' tjjj="jrtg.jjbq.xsqb">显示全部<b class="showall"></b></a>
+                </dd>
+            </dl>
+        </section>
+        
+        <!-- 装修设计 -->
+		<section class="newindex_item_m mb-12">
+        	<dl class="newindex_dl clearfix">
+            	<dt id="ad_1023">
+				</dt>
+                <dd>
+                	<ul class="cate_ul clearfix">
+						<li class="list_li"><a tjjj="jrtg.zxbq.28" title="" href="http://m.jia.com/shanghai/mall/zhuangxiu/tag/28" class="ui-link">二手房装修</a></li><li class="list_li"><a tjjj="jrtg.zxbq.405" title="" href="http://m.jia.com/shanghai/mall/zhuangxiu/tag/405" class="ui-link">装修公司</a></li><li class="list_li"><a tjjj="jrtg.zxbq.451" title="" href="http://m.jia.com/shanghai/mall/zhuangxiu/tag/451" class="ui-link">精品设计</a></li><li class="list_li"><a tjjj="jrtg.zxbq.452" title="" href="http://m.jia.com/shanghai/mall/zhuangxiu/tag/452" class="ui-link">精品设计</a></li><li class="list_li"><a tjjj="jrtg.zxbq.33" title="" href="http://m.jia.com/shanghai/mall/zhuangxiu/tag/33" class="ui-link">办公室/商铺装修</a></li><li class="list_li"><a tjjj="jrtg.zxbq.532" title="" href="http://m.jia.com/shanghai/mall/zhuangxiu/tag/532" class="ui-link">监理/验房公司</a></li>                    </ul>
+                </dd>
+                <dd class="last">
+                	<a title="" href="http://m.jia.com/shanghai/mall/zhuangxiu" tjjj="jrtg.zxbq.xsqb" class="ui-link">显示全部<b class="showall"></b></a>
+                </dd>
+            </dl>
+        </section>        
+     <section class="newindex_item_m">
+        	<h2 class="item_title_h2">装修案例 <a title="" href="http://m.jia.com/anli_list/" class="showall_a ui-link" tjjj="jrtg.zxal.xsqb">显示全部<b class="showall"></b></a></h2>
+            <ul class="anlishow clearfix">
+            	<a title="" href="http://m.jia.com/tk/tk_detail?anli_id=24" tjjj="jrtg.zxal.1" class="ui-link"><li><img alt="" src="http://ued.jia.com/image/mobile/mobile_shop/new_mobileshop/index_n_change/anli1.jpg" width="571" height="256" class="b-r10"></li>
+				<li class="last">无拘无束 独特田园风90平米婚房装修</li></a>
+            </ul>
+            <ul class="anlishow clearfix">
+                <a title="" href="http://m.jia.com/tk/tk_detail?anli_id=42" tjjj="jrtg.zxal.2" class="ui-link"><li><img alt="" src="http://ued.jia.com/image/mobile/mobile_shop/new_mobileshop/index_n_change/anli2.jpg" width="571" height="256" class="b-r10"></li>
+                <li class="last">小屋换新装 地中海田园的美好混搭</li></a>
+            </ul>
+       </section>
+
+<footer data-role="footer" data-theme="z" class="new_footer footer-tk mt0">    	 
+        <div class="foot_main">
+        	
+        	<div class="phonebox">
+            	<a href="TEL:4006607700" class="ui-link" tjjj="wap.footer.call">
+	            	                    <dl class="tg_hotline clearfix">
+	                        <dt>咨询热线：</dt>
+	                        <dd>
+	                        400 660 7700
+	                        	                        </dd>
+	                    </dl>
+	                </a>
+            </div>
+			<div class="lg-reg">
+            	<p>
+            	                 <a href="http://m.jia.com/login" class="btn-lg-reg" rel="external" tjjj="wap.land">登录</a>
+				 <a href="http://m.jia.com/register" class="btn-lg-reg" rel="external" tjjj="wap.register">注册</a>                <a href="javascript:void(0);" class="backtotop_new" name="backtotop">Top<i></i></a>
+                </p>
+            </div>
+        	<ul class="vision_ul clearfix">
+            	<li><a href="" title="" class="cur">触屏版</a></li>
+                <li><a 
+				
+								href="http://shanghai.jia.com/?f=wap"				 title="">电脑版</a></li>
+                <li><a href="http://m.jia.com/download/kehuduan" title="" rel="external">客户端</a></li>
+            </ul>
+            <p class="cr_sm">Copyright 2015 齐家Jia.com 版权所有</p>
+        </div>
+    </footer> 
+   
+</div>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?0ef6d34be86061f1e88b15621d1fef05";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>
+<!-- app下载 -->
+    <div class="footer_float">	
+    	<a href="javascript:void(0);" onclick="go_download()"  tjjj="wap.index.app.open" >
+    		<b class="footer_close footer_close_m" id="footer_close" tjjj="wap.index.app.close">
+		    <img src="http://ued.jia.com/image/mobile/mobile_shop/new_mobileshop/float_close.png"/>
+		    </b> 
+		    <span class="footer_logo footer_logo_m">
+		    <img src="http://ued.jia.com/image/mobile/mobile_shop/new_mobileshop/float_phone.png" />
+		    </span>
+		    <div class="footer_download" style="color:#fff;">
+		    <h3>下载齐家APP</h3>
+		    <p>现场砍价补订，特价商品天天有</p>
+		    </div>
+		    <span  class="footer_open">立即打开</span>  
+	    </a>
+ 	</div>
+ 	<script type="text/javascript">
+	$("#footer_close").click(function(){
+		$(".footer_float").hide();	
+		return false;
+	});
+	function getLocation(){
+		if (navigator.geolocation){
+			navigator.geolocation.getCurrentPosition(function( position ){
+				$.getJSON( "http://api.map.baidu.com/geocoder/v2/?callback=?" , {'ak':'47344c7a1fbe7ad66bf7d82860633593' , 'location' : position.coords.latitude+","+position.coords.longitude , 'output' : 'json' , 'pois' : '0' } , function(response){
+					if( response.status == 0 ){
+						//alert(response.result.addressComponent.city);
+						//alert( response.result.addressComponent.city.match('上海') == undefined );
+						get_city(response.result.addressComponent.city);
+					}else{
+						//alert( "解析失败！" );定位失败
+					}
+				});
+				
+			});
+		}else{
+		//浏览器不支持
+		}
+	}
+	function get_city(city)
+	{
+		$.get("http://m.jia.com/city/goto_city",{city:city},function(data){
+			if(data.errno>0){
+				//alert(data.error);
+			}else{
+				//window.location.href=data.url;
+			}
+		},"json");
+	}
+	//getLocation();
+	
+	$(document).ready(function() { 
+	    jQuery.mobile.ajaxEnabled = false; 
+	});  
+	
+	$(function(){
+		//get_miaosha();
+		//setInterval("get_miaosha()",60000);
+	});
+	function get_miaosha()
+	{
+		$.ajax({
+			type:"post",
+			url:"http://m.jia.com/m/miaosha",
+			data:{},
+			success:function(data){
+				$("#seckill").html(data);
+				countDown2();
+			},
+			error:function(){
+				
+			}
+		})
+	}
+	function countDown2()
+	{
+		if(timer){
+			clearInterval(timer);
+		}
+		var timer = setInterval(function(){
+			$("#seckill ul li .left_timer").each(function(i,e){
+				var start_time = $(this).attr("val"),
+				sys_second = (start_time-new Date().getTime())/1000;
+				if (sys_second > 0) {
+					sys_second -= 1;
+					var day = Math.floor((sys_second / 3600) / 24);
+					var hour = Math.floor((sys_second / 3600));
+					var minute = Math.floor((sys_second / 60) % 60);
+					var second = Math.floor(sys_second % 60);
+					if(hour>0){
+						$(this).children('.t_hour').text(hour);
+					}else{
+						$(this).children('.t_hour').text("00");
+					}
+					//if(i==2){
+					//	$(this).children('.t_hour').text("23");
+					//}else if(i==1){
+					//	$(this).children('.t_hour').text("23");
+					//}else{
+					//	$(this).children('.t_hour').text("47");
+					//}
+					
+					
+					if(minute>0){
+						$(this).children('.t_min').text(minute<10?"0"+minute:minute);//计算分
+					}else{
+						$(this).children('.t_min').text("00");
+					}
+					if(second>0){
+						$(this).children('.t_second').text(second<10?"0"+second:second);// 计算秒
+					}else{
+						$(this).children('.t_second').text("00");
+					}	
+				} else { 
+					if($(e).attr("rel")==1){
+						$(e).html("秒杀开始");
+					}else{
+						$(e).html("秒杀结束");
+					}
+				}
+			})
+		}, 1000);
+	}
+
+	</script>
+<script type="text/javascript">
+function go_download(){
+	if (navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)) {
+		var loadDateTime = new Date();
+		window.setTimeout(function() {
+			var timeOutDateTime = new Date();
+			if (timeOutDateTime - loadDateTime < 5000) {
+				window.location = "https://itunes.apple.com/us/app/qi-jia-wang/id889003085?l=zh&ls=1&mt=8";
+				}else {
+					window.close();
+				}
+			},
+			25);
+		window.location = "qijia://com.qijia.o2o";
+	}else if (navigator.userAgent.match(/android/i)) {
+		window.location="qijia://com.qijia.o2o";  //打开某手机上的某个app应用
+		setTimeout(function(){
+			window.location="https://itunes.apple.com/us/app/qi-jia-wang/id889003085?l=zh&ls=1&mt=8"; //如果超时就跳转到app下载页
+		},1000);
+	}
+}
+  
+</script>
+<script type="text/javascript" src="http://gao.tg.com.cn/site_admin/index.php?c=pos/show&id=77&area=shanghai"></script>
+<script type="text/javascript">
+ad_1006();
+ad_1007();
+ad_1008();
+ad_1009();
+ad_1010();
+ad_1011();
+ad_1012();
+ad_1013();
+ad_1014();
+ad_1015();
+ad_1016();
+ad_1017();
+ad_1018();
+ad_1019();
+ad_1020();
+ad_1021();
+ad_1022();
+ad_1023();
+
+$("#banner_box ul li").each(function(i,e){
+	if(!$(this).find("img").length>0){
+		$(this).remove();
+	}
+})
+</script>

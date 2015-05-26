@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+    <style>
+    .img { float:left; border:#900 2px solid;}
+    </style>
+</head>
+<body>
+	<div class="page">
+	  <ol>
+		  <li>
+			  <p>按钮的使用场景：</p>
+			  <pre><font style="color:#900;font:14px bold;">1.页面功能操作</font><br>如“确认、取消、发布、保存”等<br><br><font style="color:#900;font:14px bold;">2.重要功能（栏目）入口</font><br>如“注册、登录”等<br><br><font style="color:#900;font:14px bold;">3.强调</font><br>在相邻的几个动作中，强调某一动作时使用，如：<font style="color:#900;font:14px bold;"></font><br><img src="img/button_1.png"/></pre>
+		  </li>
+          <li>
+			  <p>按钮样式注意点：</p>
+			  <pre><font style="color:#900;font:14px bold;">1.根据整体页面风格，设计按钮的样式设计需符合整体页面风格。</font><br><br><font style="color:#900;font:14px bold;">2.相同功能按钮的样式统一</font><br>对于实现相同功能的按钮设计，建议采用统一样式呈现。
+<br><font style="color:#900;font:14px bold;">3.避免不同风格的按钮集中摆放</font><br>在设计中，应尽量避免不同风格按钮的集中摆放，容易造成视觉传达上的混乱。<br>用户将无法第一时间确认我们需要引导其使用的动作（按钮）。<br><br><font style="color:#900;font:14px bold;">4.按钮状态</font><br>在设计中，按钮都应至少具备“弹起状态”和“经过状态”。<br>只有具有交互的按钮才能给用户带来更完善的用户体验。<br></pre>
+		  </li>
+          <li>
+			  <p>按钮四种状态：</p>
+			  <pre><font style="color:#900;font:14px bold;">1.弹起（默认）&quot;normal&quot;状态</font><br>按钮可点击，点击使用按钮功能，如：<br><img src="img/bt-2_1-normal.png"/>
+<br><font style="color:#900;font:14px bold;">2.鼠标经过（提示用户可点击）&quot;hover&quot;状态</font><br>按钮可点击时鼠标移过状态变化：<br><img src="img/bt-2_1-hover.png"/>
+<br><font style="color:#900;font:14px bold;">3.按下（用户点击）&quot;active&quot;或“loading”状态</font><br>当用户点击了上传或登录或特别强调（如首页搜索）的按钮后，即进入此状态。
+如：点击“立即登录&quot;按钮，按钮状态应显示”加载中...“或者变为”loading“状态。如：<br><img src="img/bt-2_1-loading.png"/>
+<br><font style="color:#900;font:14px bold;">3.不可用（用户不可点击）&quot;disable&quot;状态</font><br>当可点击条件不足时，即计入此状态。此状态下按钮淡化（灰度）显示，用户无法点击。<br><img src="img/bt-2_1-unused.png"/></pre>
+		  </li>
+          <li>
+			  <p>各类按钮规范：</p>
+			  <pre><font style="color:#900;font:14px bold;">一级按钮</font><br><img src="img/btn1.png"/></pre><br>
+              <pre><font style="color:#900;font:14px bold;">二级按钮</font><br><img src="img/btn2.png"/></pre><br>
+              <pre><font style="color:#900;font:14px bold;">三级按钮</font><br><img src="img/btn3.png"/></pre><br>
+              <pre><font style="color:#900;font:14px bold;">四级按钮</font><br><img src="img/btn4.png"/></pre>
+		  </li>
+	  </ol>
+	</div>
+</body>
+</html>

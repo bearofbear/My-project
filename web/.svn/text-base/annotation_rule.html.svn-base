@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="css/front_end.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>html注释：</p>
+				<p>（1）给重要循环区块添加注释，方便后台人员添加代码。</p>
+				<p>书写示例：</p>
+				<pre>&lt;!-- 新闻列表开始 --&gt;
+&lt;ul&gt;
+    &lt;li&gt;……&lt;/li&gt;
+    &lt;li&gt;……&lt;/li&gt;
+    &lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- 新闻列表结束 --&gt;
+</pre>
+<p>（2）给关键区块添加注释信息</p>
+<p>书写示例：</p>
+<pre>&lt;!-- 左栏模块 宽度200px  --&gt;
+&lt;div class=”column”&gt;
+&lt;/div&gt;
+</pre>
+			</li>
+			<li>
+				<p>css注释：</p>
+				<p>（1）css文件开始部分添加 模块信息，编辑人信息，编辑日期，修改项目</p>
+				<pre>/*  common.css
+ *   全站基础样式，严禁随意修改
+ *   创建人：yjbao  mail:baoyanjuan@qeeka.com
+ *   创建时间：2011-7-10
+ *   修改：h3标签加粗  2011-7-18
+ */
+</pre>
+</pre>
+				<p>（2）按模块添加注释信息</p>
+				<pre>/*  reset 基础样式重置
+-------------------------------------------*/
+body{ padding:0; margin:0}
+</pre>
+			<p>（3）给重要区块添加注释信息，例如图片拼合等</p>
+			<pre>/* 已整合title nav top_site 背景图 main.png */
+.nav, .top_site, .title{ background:url(../img/main.png) no-repeat}
+</pre>
+			</li>
+		</ol>
+	</div>
+</body>
+</html>

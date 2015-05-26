@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>html-文件规范</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>文件规范</h3></td>
+    </tr>
+</table>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><p>1、html, css, img文件均归档至<系统开发规范>约定的目录中；</p></td>
+    </tr>
+    <tr>
+    <td><p>2、html文件命名: 英文命名, 后缀.htm。同时保存好相应的设计稿放于同目录中, 若界面稿命名为中文, 请重命名与html文件同名, 以方便后端开发人员添加功能时查找对应页面；</p></td>
+    </tr>
+    <tr>
+    <td><p>3、css文件命名: 英文命名, 后缀.css. 共用core.css, 首页index.css, 其他页面依实际模块需求命名。</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

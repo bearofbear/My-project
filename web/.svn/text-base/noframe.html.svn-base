@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>隐形网格布局</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><h3><strong>由隐形线框或线条划分的页面结构</strong>：</h3></td>
+    </tr>
+    <tr>
+    <td><img src="images/noframe.jpg" alt="" width="593" height="435" /></td>
+    </tr>
+    <tr>
+    <td><p class="alarm">*建议线框间距15px、20px、25px</p></td>
+    </tr>
+    <tr>
+    <td height="40px"></td>
+    </tr>
+    <tr>
+    <td><h4 class="wenzi">使用这种页面结构的知名网站</h4></td>
+    </tr>
+    <tr>
+    <td><p>隐形线框结构网站</p></td>
+    </tr>
+    <tr>
+    <td><img src="images/baixing_demo.jpg" alt="" width="1012" height="526" /></td>
+    </tr>
+    <tr>
+    <td class="line"></td>
+    </tr>
+    <tr>
+    <td height="50px"><p>线条划分结构网站</p></td>
+    </tr>
+    <tr>
+    <td><img src="images/msn_demo.jpg" alt="" width="1000" height="1034" /></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

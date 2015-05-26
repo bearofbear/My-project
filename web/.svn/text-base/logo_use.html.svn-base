@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Logo使用规则</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>Logo的保护区</h3></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/logo_1.jpg" alt="" width="281" height="72" /></p></td>
+    </tr>
+    <tr>
+    <td><p class="alarm">*Logo四周至少留10px空间，除底图外的任何图形，均不得进入保护区域</p></td>
+    </tr>
+    <tr>
+    <td height="50px"></td>
+    </tr>
+    <tr>
+    <td><h3>Logo使用的最小尺寸</h3></td>
+    </tr>
+    <tr>
+    <td><p>Logo等比缩小到肉眼可识别最小文字的大小，为Logo可使用的最小尺寸</p></td>
+    </tr>
+    <tr>
+    <td height="50px"></td>
+    </tr>
+    <tr>
+    <td><h3>Logo在不同环境中的使用</h3></td>
+    </tr>
+    <tr>
+    <td><p>白色背景、黑色背景、彩色背景（结需合实际logo制定具体规范）</p></td>
+    </tr>
+    <tr>
+    <td height="50px"></td>
+    </tr>
+    <tr>
+    <td><h3>Logo使用注意事项</h3></td>
+    </tr>
+    <tr>
+    <td><p>1、禁止直接从Ai或eps拷贝Logo到Photoshop或Firework，必须先输出png图片，再使用。以防拷贝过程中产生色差；</p></td>
+    </tr>
+    <tr>
+    <td><p>2、禁止将Logo拉伸变形、拆分重组、改变颜色、必须严格遵循VI规范；</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>通用色彩</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td colspan="2"><h3>通用色彩</h3></td>
+    </tr>
+    <tr>
+      <td bgcolor="#000000" width="20" height="30" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#000000</p></td>
+    <tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <td bgcolor="#333333" width="20" height="30" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="300"><p>&nbsp;#333333：适用于全局基础文字</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#666666" width="20" height="30" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#666666</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#999999" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#999999：适用于注释、提示文字</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#bbbbbb" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#bbbbbb：适用于输入框边框颜色</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#cccccc" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#cccccc</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#dddddd" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#dddddd</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#eeeeee" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#eeeeee</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#f6f6f6" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#f6f6f6：适用于弹框和表格灰色部分背景色</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" height="20"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#fbfbfb" width="20" style="border-bottom:#FFF 2px solid"></td>
+    <td height="30" width="60"><p>&nbsp;#fbfbfb</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页活动广告规范</title>
+<link href="css/base.css" rel="stylesheet" />
+
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><h3>限时抢购</h3></td>
+    </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table">
+     <tr bordercolor="#999999" bgcolor="#CCCCCC">
+       <td align="center"><strong>设计样例</strong></td>
+       <td colspan="2" align="center"><strong>设计规范说明</strong></td>
+     </tr>
+     <tr>
+       <td width="306" rowspan="4" align="center"><img src="images/ad-限时抢购.png" alt="" width="248" height="301" /></td>
+       <td colspan="2" align="center">广告尺寸：170x140px</td>
+     </tr>
+     <tr>
+       <td width="125" rowspan="3" align="center"><strong>标签</strong></td>
+       <td>• 标签只能使用直径为73px的圆形，颜色(#cc0000)；85%的透明度<br />
+• 标签距图片边距为3px</td>
+  </tr>
+     <tr>
+       <td><p><img src="images/ad-限时抢购1.png" alt="" width="82" height="38" /></p>
+         <p>• 中文字体使用微软雅黑；大小为14px；字体颜色(#fff)<br />
+       • 数字使用Tahoma(blod)；大小为21px和14px；字体颜色(#fff)</p></td>
+     </tr>
+     <tr>
+       <td width="561"><p><img src="images/ad-限时抢购2.png" alt="" width="82" height="38" /></p>
+         <p>• 中文字体使用微软雅黑；大小为11px；字体颜色(#fff)<br />
+       • 数字使用Tahoma(regular)；大小为11px；字体颜色(#fff)</p></td>
+     </tr>
+</table>
+<br />
+<table width="95%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><h3>热卖商品</h3></td>
+  </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table2">
+  <tr bordercolor="#999999" bgcolor="#CCCCCC">
+    <td width="41%" height="32" align="center"><strong>设计样例</strong></td>
+    <td colspan="2" align="center"><strong>设计规范说明</strong></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><img src="images/ad-热卖商品.png" alt="" width="407" height="236" /></td>
+    <td height="31" colspan="2" align="center">广告尺寸：192x192px</td>
+  </tr>
+  <tr>
+    <td width="14%" align="center"><strong>标签</strong></td>
+    <td width="45%"><p>• 标签只能使用直径为53px的圆形，颜色(#cc0000)；85%的透明度<br />
+      • 标签距图片边距为53px<br />
+      • 中文字体使用微软雅黑；大小为14点；字体颜色(#fff)<br />
+    • 数字使用Tahoma(blod)；大小为24点和16点；字体颜色(#fff)</p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="95%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><h3>热门活动</h3></td>
+  </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table3">
+  <tr bordercolor="#999999" bgcolor="#CCCCCC">
+    <td height="32" align="center"><strong>设计样例</strong></td>
+    <td colspan="2" align="center"><strong>设计规范说明</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/ad-热门活动.png" alt="" width="170" height="154" /></td>
+    <td colspan="2"><p>• 中文字体使用微软雅黑；英文字体和数字使用Arial(regular)<br />
+      • 大标题中文字体大小为18px<br />
+      • 小标题字体大小为12px<br />
+    • 字体颜色可根据图片色调进行调整</p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="95%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><h3>楼层活动广告</h3></td>
+  </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table4">
+  <tr bordercolor="#999999" bgcolor="#CCCCCC">
+    <td height="32" align="center"><strong>设计样例</strong></td>
+    <td colspan="2" align="center"><strong>设计规范说明</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="images/ad-楼层广告.png" alt="" width="324" height="364" /></td>
+    <td colspan="2"><p><strong>标题区域</strong></p>
+      <p>&nbsp; </p>
+      <p>• 高度不可高于或少于74px<br />
+        • 背景色可根据活动图片的色调进行调整，50%的透明度或者正片叠底模式<br />
+        • 中文字体使用微软雅黑、强调的中文字体使用创艺简粗黑；英文字体和数字使用Tahoma(blod)<br />
+    • 字体颜色不超过3种（#fff；#666；#a40000）</p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

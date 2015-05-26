@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>线框网格布局</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><h3>由线框网格组成的页面结构：</h3></td>
+    </tr>
+    <tr>
+    <td><img src="images/frame.jpg" alt="" width="585" height="335" /></td>
+    </tr>
+    <tr>
+    <td><p class="alarm">*建议线框间距10px</p></td>
+    </tr>
+    <tr>
+    <td height="40px"></td>
+    </tr>
+    <tr>
+    <td><h4 class="wenzi">使用这种页面结构的知名网站</h4></td>
+    </tr>
+    <tr>
+    <td><img src="images/163DEMO.jpg" alt="" width="975" height="639" /></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

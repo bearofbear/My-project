@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>界面设计规范-弹出框</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>弹出框</h3></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/弹出框.png" alt="" width="1200" height="1359" /></p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

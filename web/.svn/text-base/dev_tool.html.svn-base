@@ -1,0 +1,28 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="css/front_end.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>建议使用webStorm、Notepad++、Vim、DW , 亦可根据自己喜好选择, 但须遵循如下原则:</p>
+				<ul>
+					<li>不可利用IDE的视图模式直接绘制代码;</li>
+					<li>不可利用IDE生成相关功能代码, 比如DW内置的一些功能js；</li>
+					<li>编码必须格式化</li>
+				</ul>
+				<p>建议使用本身具有代码检错能力和语法检查（比如Jslint）的编辑器，必须装上Zen-coding这样能提高开发效率的插件</p>
+			</li>
+			<li>
+				<p>测试工具及浏览器测试顺序</p>
+				<p>为保证页面质量，在交付前应进行严格的兼容测试，确保各浏览器显示基本一致。测试顺序：Firefox & Chrome & IE9 > IE6 > IE7 > IE8 </p>
+				<p>另需注意测试：360/遨游/腾讯TT/搜狗 等国内浏览器的显示情况</p>
+			</li>
+		</ol>
+	</div>
+</body>
+</html>

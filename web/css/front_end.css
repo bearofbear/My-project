@@ -1,0 +1,67 @@
+﻿/*前端开发规范样式*/
+
+/*reset*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 14px/2 Georgia,sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:520px;
+}
+td,th{
+	border:1px solid #ddd;
+	padding:5px 10px;
+}
+th{
+	background:#efefef;
+}
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+
+/*主体样式*/
+pre{
+	padding:10px;
+	border:1px solid #ccc;
+	box-shadow:0 0 3px #ddd;
+	font:12px monaco,courier new;
+	width:500px;
+	line-height:2;
+	overflow:auto;
+}
+.page{
+	padding:30px 50px;
+}
+.page ol li{
+	margin-bottom:10px;
+}
+.page ul{
+	padding:5px 20px;
+	background:#fbfbfb;
+}
+.page ul li{
+	list-style-type:square;
+	margin:0;
+	line-height:1.5;
+}
+.page a{
+	color:#f00;
+}
+/*high light*/
+.hl_1,.hl_2,.hl_3,.hl_4,.hl_5{border-radius:3px;padding:2px 3px;}
+.hl_1{background:#f60;}
+.hl_2{background:#9ACD32;}
+.hl_3{background:#1E90FF;color:#fff;}
+.hl_4{background:#FFD700;}
+.hl_5{background:#000;color:#fff;}

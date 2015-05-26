@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>常用栅格化布局</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p>网页栅格系统是从平面栅格系统中发展而来。对于网页设计来说，栅格系统的使用，可以让网页的信息呈现更加美观易读，更具可用性。并且，对于前端开发来说，网页将更加的灵活与规范。</p></td>
+  </tr>
+    <tr>
+    <td height="20px"></td>
+    </tr>
+    <tr>
+    <td><h3>常用栅格模板预览：</h3></td>
+    </tr>
+    <tr>
+    <td><p>下面是由30、40、60单元块与块间距10、15、20分别组合成的栅格系统模板。</p></td>
+    </tr>
+</table>
+<table class="box" width="45%">
+  <tr bgcolor="#E1E1E1" height="40px">
+    <td></td>
+    <td align="center"><p><a href="30-10.html" target="_blank"><strong>30-10</strong></a></p></td>
+    <td align="center"><p><a href="30-15.html" target="_blank"><strong>30-15</strong></a></p></td>
+    <td align="center"><p><a href="30-20.html" target="_blank"><strong>30-20</strong></a></p></td>
+    <td align="center"><p><a href="40-10.html" target="_blank"><strong>40-10</strong></a></p></td>
+    <td align="center"><p><a href="40-15.html" target="_blank"><strong>40-15</strong></a></p></td>
+    <td align="center"><p><a href="40-20.html" target="_blank"><strong>40-20</strong></a></p></td>
+    <td align="center"><p><a href="60-10.html" target="_blank"><strong>60-10</strong></a></p></td>
+    <td align="center"><p><a href="60-15.html" target="_blank"><strong>60-15</strong></a></p></td>
+    <td align="center"><p><a href="60-20.html" target="_blank"><strong>60-20</strong></a></p></td>
+  </tr>
+  <tr>
+    <td align="center"><p>940px</p></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+  </tr>
+    <tr>
+    <td align="center"><p>950px</p></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+      <tr>
+    <td align="center"><p>960px</p></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+  </tr>
+      <tr>
+    <td align="center"><p>970px</p></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+      <tr>
+    <td align="center"><p>975px</p></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+   <tr>
+    <td align="center"><p>980px</p></td>
+    <td align="center">&nbsp;</td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+      <tr>
+    <td align="center"><p>990px</p></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+      <tr>
+    <td align="center"><p>1000px</p></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"><img src="images/check.png" alt="" width="32" height="32" /></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</table>
+
+
+</body>
+</html>

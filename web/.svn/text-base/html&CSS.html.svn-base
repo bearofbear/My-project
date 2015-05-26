@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>html&css</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>1、范围目的</h3></td>
+    </tr>
+    <tr>
+    <td><p>为提高团队协作效率, 便于后台人员添加功能及前端后期优化维护, 输出高质量且统一的文档, 特制订此文档. 本规范文档一经确认, 前端开发人员必须按本文档规范进行前台页面开发。 本文档如有不对或者不合适的地方请及时提出, 经讨论决定后方可更改。</p>
+      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><h3>2、基本准则</h3></td>
+    </tr>
+    <tr>
+    <td><p>符合web标准, 语义化html, 结构表现行为分离, 兼容性优良。
+页面性能方面, 代码要求简洁明了有序, 保证各种效果和功能的有效和高性能实现，尽可能的减小服务器负载, 保证最快的解析速度。</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

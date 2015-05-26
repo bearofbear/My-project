@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>导航条</title>
+<script type="text/javascript" src="js/1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<h4>导航条</h4>
+<span>导航条的基本样式是static（相对于fixed、absolute等定位样式）的（不固定在页面顶部），并包含一个项目（或网站）名称和基本的导航项。将导航条放入.container中就可以限制其宽度。</span>
+<div class="bs-docs-example">
+    <div class="navbar">
+        <div class="navbar-inner"> <a href="#" class="brand">Title</a>
+            <ul class="nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<h4>导航条组件：品牌</h4>
+<span>只需要一个连接标签就可以展示你的品牌货项目名称。</span>
+<div class="bs-docs-example">
+    <div class="navbar">
+        <div class="navbar-inner"> <a class="brand" href="#">品牌名称</a> </div>
+    </div>
+</div>
+<p>添加分隔符同样的简单，只需增加一个空白的条目并为其设置一个类即可。如下所示：</p>
+<div class="bs-docs-example">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <ul class="nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="#">Link</a></li>
+                <li class="divider-vertical"></li>
+                <li><a href="#">Link</a></li>
+                <li class="divider-vertical"></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bs-docs-example">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <form class="navbar-form pull-left">
+                <input type="text" class="span2">
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<h4>搜索表单</h4>
+<span>在导航条内为form添加.navbar-search，并为输入框添加.search-query即可获得一个搜索表单。</span>
+<div class="bs-docs-example">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <form class="navbar-search pull-left">
+    <input type="text" class="search-query" placeholder="Search">
+    </form>
+        </div>
+    </div>
+</div>
+
+
+   
+</body>
+</html>

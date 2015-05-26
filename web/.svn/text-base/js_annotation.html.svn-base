@@ -1,0 +1,45 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>自己所写的JS文件，要在文件头注明日期和作者，以及文件功能。</p>
+				<p>示例：</p>
+				<pre>/*
+ * comm.js
+ * http://qeeka.com/
+ * author: *****
+ * Date: 2011-02-19 17:34:21
+ * Revision: 6246
+ * Features:******
+ */
+</pre>
+			</li>
+			<li>
+				<p>函数和变量要注明功能和作用</p>
+				<pre>//features of function
+Function name-of-function(){
+   // features of the variable
+Var name-of-variable;
+}
+</pre>
+			</li>
+			<li>
+				<p>修改他人代码，要在修改处注明日期和修改人。</p>
+				<pre>// 别人的注释
+// modified date：2011-7-18
+// who modified
+// 修改的内容
+</pre>
+			</li>
+			<li>注释尽量使用英文。</li>
+		</ol>
+	</div>
+</body>
+</html>

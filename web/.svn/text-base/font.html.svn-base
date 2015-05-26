@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>通用网页字使用规则</title>
+<link href="css/base.css" rel="stylesheet" />
+
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><h3>一级文字</h3></td>
+    </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table">
+     <tr bordercolor="#999999" bgcolor="#CCCCCC">
+       <td align="center"><strong>设计样例</strong></td>
+       <td width="230" align="center"><strong>设计说明</strong></td>
+       <td width="430" align="center"><strong>代码</strong></td>
+     </tr>
+     <tr>
+      <td width="190" align="center"><span style="font:24px ‘黑体’">黑体</span></td>
+      <td align="center"><p>黑体 24px</p></td>
+      <td align="center">&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="190" align="center"><span style="font:700 22px Tahoma,Helvetica,Arial,sans-serif">99999.00</span></td>
+      <td align="center"><p>Tahoma加粗 22px</p></td>
+      <td align="center">Tahoma,Helvetica,Arial,sans-serif</td>
+    </tr>
+</table>
+<br />
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><h3>二级文字</h3></td>
+    </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table">
+     <tr bordercolor="#999999" bgcolor="#CCCCCC">
+       <td align="center"><strong>设计样例</strong></td>
+       <td width="230" align="center"><strong>设计说明</strong></td>
+       <td width="430" align="center"><strong>代码</strong></td>
+     </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:700 14px '宋体'">宋体</span></td>
+      <td align="center"><p>宋体加粗 14px</p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="190" align="center"><span style="font:14px '宋体'">宋体</span></td>
+      <td align="center"><p>宋体 14px</p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:700 14px Tahoma,Helvetica,Arial,sans-serif">99999.00</span></td>
+      <td align="center"><p>Tahoma加粗 14px</p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:14px Tahoma,Helvetica,Arial,sans-serif">99999.00</span></td>
+      <td align="center"><p>Tahoma 14px</p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+</table>
+<br />
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><h3>三级文字</h3></td>
+    </tr>
+</table>
+<table width="95%" border="1" cellpadding="0" cellspacing="0" id="table">
+     <tr bordercolor="#999999" bgcolor="#CCCCCC">
+       <td align="center"><strong>设计样例</strong></td>
+       <td width="230" align="center"><strong>设计说明</strong></td>
+       <td width="430" align="center"><strong>代码</strong></td>
+     </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:700 12px '宋体'">宋体</span></td>
+      <td align="center"><p>宋体加粗 12px </p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:12px '宋体'">宋体</span></td>
+      <td align="center"><p>宋体 12px </p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:700 12px Tahoma,Helvetica,Arial,sans-serif">99999.00</span></td>
+      <td align="center"><p>Tahoma加粗 12px</p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+      <td width="190" align="center"><span style="font:12px Tahoma,Helvetica,Arial,sans-serif">99999.00</span></td>
+      <td align="center"><p>Tahoma 12px</p></td>
+      <td align="center">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

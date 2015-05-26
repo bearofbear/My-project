@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ 
+    margin:30px 0 0 30px;
+	font: Tahoma,Helvetica,Arial,sans-serif;
+}
+p,h3{
+	margin:0 0 10px 0;
+	padding:0;
+}
+.notes{
+	font:12px Verdana, Geneva, sans-serif;
+	color:#666;
+}
+.alarm{ 
+    color:#FF0000;
+}
+.box{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.box td{
+	border:1px solid #ccc;
+}
+table{
+	margin:5px 0;
+}
+.wenzi{
+    background-color:#cccccc;
+	padding:10px;
+}
+.line{
+	border:2px #CCC solid;
+}
+#table{
+	border-collapse:collapse;	
+}
+#table td{
+	padding:5px;
+	border:#999 1px solid;
+}

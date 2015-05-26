@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type="text/javascript" src="js/1.8.3.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>按钮</th>
+                <th>class=""</th>
+                <th>描述</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button class="btn" type="button">默认</button></td>
+                <td><code>btn</code></td>
+                <td>带渐变的标准灰色按钮</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-primary" type="button">主要</button></td>
+                <td><code>btn btn-primary</code></td>
+                <td>提供额外的视觉感, 可在一系列的按钮中指出主要操作</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-info" type="button">信息</button></td>
+                <td><code>btn btn-info</code></td>
+                <td>默认样式的替代样式</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-success" type="button">成功</button></td>
+                <td><code>btn btn-success</code></td>
+                <td>表示成功或积极的动作</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-warning" type="button">警告</button></td>
+                <td><code>btn btn-warning</code></td>
+                <td>提醒应该谨慎采取这个动作</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-danger" type="button">危险</button></td>
+                <td><code>btn btn-danger</code></td>
+                <td>表示这个动作危险或存在危险</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-inverse" type="button">反向</button></td>
+                <td><code>btn btn-inverse</code></td>
+                <td>备用的暗灰色按钮，不依赖于语义和用途</td>
+              </tr>
+              <tr>
+                <td><button class="btn btn-link" type="button">链接</button></td>
+                <td><code>btn btn-link</code></td>
+                <td>简化一个按钮, 使它看起来像一个链接，同时保持按钮的行为</td>
+              </tr>
+            </tbody>
+</table>
+          
+          
+          
+<h4>按钮大小</h4>
+          想使用更大或更小的按钮吗？添加&lt;code&gt;.btn-large&lt;/code&gt;、&lt;code&gt;.btn-small&lt;/code&gt; 或 &lt;code&gt;.btn-mini&lt;/code&gt;即可改变按钮大小。
+<div class="bs-docs-example">
+    <p>
+              <button class="btn btn-large btn-primary" type="button">Large button</button>
+              <button class="btn btn-large" type="button">Large button</button>
+    </p>
+            <p>
+              <button class="btn btn-primary" type="button">Default button</button>
+              <button class="btn" type="button">Default button</button>
+            </p>
+            <p>
+              <button class="btn btn-small btn-primary" type="button">Small button</button>
+              <button class="btn btn-small" type="button">Small button</button>
+            </p>
+            <p>
+              <button class="btn btn-mini btn-primary" type="button">Mini button</button>
+              <button class="btn btn-mini" type="button">Mini button</button>
+            </p>
+</div>
+    
+    
+    
+    
+    通过添加.btn-block类，可使按钮变为块级元素，同时会填充整个父级元素。
+    <div class="bs-docs-example">
+            <div style="max-width: 400px; margin: 0 auto 10px;" class="well">
+              <button class="btn btn-large btn-block btn-primary" type="button">Block level button</button>
+              <button class="btn btn-large btn-block" type="button">Block level button</button>
+            </div>
+          </div>
+    
+    <h4>禁用状态</h4>
+    颜色淡出50%，让按钮看起来无法点击。
+    <p class="bs-docs-example">
+            <a class="btn btn-large btn-primary disabled" href="#">Primary link</a>
+            <a class="btn btn-large disabled" href="#">Link</a>
+          </p>
+   <h4>按钮元素</h4>
+   <p>给<code>&lt;button&gt;</code>添加<code>disabled</code>属性。</p>       
+   <p class="bs-docs-example">
+            <button disabled="disabled" class="btn btn-large btn-primary disabled" type="button">Primary button</button>
+            <button disabled="" class="btn btn-large" type="button">Button</button>
+          </p>       
+    
+<h4>一个类支持多种标签</h4>    
+<p>可以给<code>&lt;a&gt;</code>、<code>&lt;button&gt;</code>或<code>&lt;input&gt;</code>元素添加<code>.btn</code>类。</p>    
+<form class="bs-docs-example">
+            <a href="" class="btn">Link</a>
+            <button type="submit" class="btn">Button</button>
+            <input type="button" value="Input" class="btn">
+            <input type="submit" value="Submit" class="btn">
+          </form>    
+          
+<h4>按钮组</h4>
+<span>将按钮放入.btn-group中，并为其添加适当的菜单标签，即可让此按钮触发下拉菜单。</span>
+<div class="bs-docs-example">
+    <div style="margin: 0;" class="btn-toolbar">
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn dropdown-toggle">Action <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group -->
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Action <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group -->
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-danger dropdown-toggle">Danger <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group -->
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-warning dropdown-toggle">Warning <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group -->
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-success dropdown-toggle">Success <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group -->
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-info dropdown-toggle">Info <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group -->
+        <div class="btn-group">
+            <button data-toggle="dropdown" class="btn btn-inverse dropdown-toggle">Inverse <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div>
+        <!-- /btn-group --> 
+    </div>
+    <!-- /btn-toolbar --> 
+</div>
+<h4>按钮尺寸</h4>
+<span>使用这些类可以调整按钮大小：.btn-mini、.btn-small、.btn-large。</span>
+<div class="bs-docs-example">
+    <div class="btn-group">
+        <button class="btn btn-mini">Action</button>
+        <button class="btn btn-mini dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+        <ul class="dropdown-menu">
+            <!-- dropdown menu links -->
+        </ul>
+    </div>
+</div>
+<h4>向上弹出式菜单</h4>
+<span>给.dropdown-menu的直接父节点添加一个类就可以让下拉菜单由下到上显示。.caret将会自动翻转，菜单的位置也会变为由下到上而不是由上到下了。</span>
+<div class="bs-docs-example">
+    <div class="btn-group dropup">
+        <button class="btn">Dropup</button>
+        <button class="btn dropdown-toggle" data-toggle="dropdown"> <span class="caret"></span> </button>
+        <ul class="dropdown-menu bb ">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+        </ul>
+    </div>
+</div>
+<h4>单一按钮组</h4>
+<span>将带有.btn类的一系列按钮包裹在.btn-group中。</span>
+<div class="bs-docs-example">
+    <div class="btn-group">
+        <button class="btn">Left</button>
+        <button class="btn">Middle</button>
+        <button class="btn">Right</button>
+    </div>
+</div>
+<h4>多维按钮组</h4>
+<span>将多个&lt;div class=&quot;btn-group&quot;&gt;放入
+&lt;div class="btn-toolbar"&gt;中即可获得更多复杂的组件。</span>
+<div class="bs-docs-example">
+    <div class="btn-toolbar">
+        <div class="btn-group">
+            <button class="btn">1</button>
+        </div>
+        <div class="btn-group">
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">7</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>文档类型声明及编码: 统一为html5声明类型，有利于向前和向后兼容，因为HTML5是标准渲染模式(standard model)。</p>
+				<p>能够规避一些因为准标准模式(almost standard model)和诡异模式(quicks model)导致的bug,写法如下：</p>
+				<pre>&lt;!DOCTYPE html&gt;</pre>
+				<p>编码统一为utf-8，写法如下：</p>
+				<pre>&lt; meta charset=&quot;utf-8&quot; /&gt;</pre>
+				<p>书写时利用IDE实现层次分明的缩进。目前统一为一个Tab为四个空格，注意检查下编辑器的默认设置。</p>
+			</li>
+			<li>css文件如无特殊情况，应链接至网页头部head标签内，title标签之后；</li>
+			<li>
+				<p>引入外部css文件时，应去除类型声明(type="text/css")，因为HTML5文档类型link的默认类型就是"text/css"，写法如下：</p>
+				<pre>&lt;link href="..." rel="stylesheet" /&gt;</pre>
+			</li>
+			<li>
+				<p>所有编码均遵循xhtml标准, 标签 & 属性 & 属性命名 必须由小写字母及下划线数字组成；且所有标签必须闭合：包括<span class="hl_2">br (&lt;br /&gt;), hr(&lt;hr /&gt;)，&lt;input /&gt;,&lt;img /&gt;</span></p>
+				<p>属性值必须用双引号包括,写法如下：</p>
+				<pre>&lt;div class="..."&gt;&lt;/div&gt;
+&lt;p style="..."&gt;&lt;/div&gt;
+</pre>
+			</li>
+			<li>
+				<p>充分利用无兼容性问题的html自身标签, 比如span, em, strong, optgroup, label等，避免使用已经被标准摒弃或浏览器私有标签，如font, bgsound, marquee等 ；</p>
+				<p>需要为 html元素添加自定义属性的时候, 首先要考虑下有没有默认的已有的合适标签去设置</p>
+			</li>
+			<li>
+				<p>语义化html,标题根据重要性用h*(同一页面只能有一个h1,h1用于logo), 段落标记用p, 列表用ul, 内联元素中不可嵌套块级元素；</p>
+				<p>h1请使用在logo上，h2-h6 应用在各级标题上。</p>
+			</li>
+			<li>
+				<p>尽可能减少div嵌套</p>
+				<p>书写示例：</p>
+				<p style="color:#f00;">不合理代码如下：</p>
+				<pre>&lt;div class="box"&gt;
+    &lt;div class=”welcome”&gt;欢迎访问q齐家网, 您的用户名
+	&lt;div class=”name”&gt;用户名&lt;div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<p style="color:#1ACD32;">正确写法如下：</p>
+<pre>&lt;div class="box"&gt;
+    &lt;p&gt;欢迎访问q齐家网, 您的用户名
+	&lt;em&gt;用户名&lt;em&gt;
+    &lt;/p&gt;
+&lt;/div&gt;</pre>
+			</li>
+			<li>
+				<p>书写链接地址时, 必须避免重定向，请在URL地址后面加上“/”，书写示例：</p>
+				<pre>href=”http://www.tg.com.cn/”</pre>
+			</li>
+			<li>在页面中尽量避免使用style属性，即：style="..."
+</li>
+			<li>
+				<p>必须为含有描述性表单元素(input, textarea)添加label，书写示例：</p>
+				<p style="color:#f00;">不合理代码如下：</p>
+				<pre>&lt;p&gt;姓名: &lt;input type="text" id="name" name="name" /&gt;&lt;/p&gt;</pre>
+				<p style="color:#1ACD32">正确写法如下：</p>
+				<pre>&lt;p&gt;&lt;label for="name"&gt;姓名：&lt;/label&gt;&lt;input name="" id="name" /&gt;&lt;/p&gt;</pre>
+			</li>
+			<li>能以背景形式呈现的图片, 尽量写入css样式中。</li>
+			<li>
+				<p>重要图片必须加上alt属性以及height,width属性，避免图片加载失败而导致错位，书写示例：</p>
+				<pre>&lt;img src="..." height="200" width="300" alt="齐家网灿烂7月大型促销" /&gt;</pre>
+				<span class="hl_1">给重要的元素和截断的元素加上title</span>
+			</li>
+			<li>给区块代码及重要功能(比如循环)加上注释, 方便后台添加功能。</li>
+			<li>特殊符号使用: 尽可能使用代码替代，书写示例：<span class="hl_5"> ">"& gt; 英文空格 & nbsp; 中文空格：& #12288;</pre></span></li>
+			<li>书写页面过程中, 请考虑向后扩展性。</li>
+			<li>class和id的书写规范请参考css部分</li>
+		</ol>
+	</div>
+</body>
+</html>

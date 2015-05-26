@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+    <style>
+    .img { float:left; border:#900 2px solid;}
+    </style>
+</head>
+<body>
+	<div class="page">
+	  <ol>
+		  <li>
+			  <p>确定交互场景：</p>
+			  <pre><font style="color:#900;font:14px bold;">1.会话式场景</font><br>用户可以在操作过程中实时看到操作反馈，所有操作是可见的。<br>也是在网站产品设计中最常用的交互场景，如：<br><img src="img/scene_1_1.png"/><br><br><font style="color:#900;font:14px bold;">2.传达式场景</font><br>主要是说明、辅助、解释、文章内容等页面。<br>主要作用是用于传达给用户既定内容，应具备明显的"返回"之前场景的功能。<br><br><font style="color:#900;font:14px bold;">3.被动触发场景</font><br>用户操作失败或其他操作信息提示的场景，在默认情况下该场景不出现。<br>由于该场景是由用户触发的，所以应具备良好的"下一步"引导功能，如：<font style="color:#900;font:14px bold;"></font><br><img src="img/scene_1_3.png"/></pre>
+		  </li>
+          <li>
+			  <p>交互场景设计原则：</p>
+		    <pre><font style="color:#900;font:14px bold;">1.遵循用户日常心理模型</font><br>遵循日常习惯的交互场景。<br>如：从左向右阅读、右手定理等，让交互场景对于用户的易用性提升。<br><br><font style="color:#900;font:14px bold;">2.用户感知</font><br>所有的交互场景设计，应遵循用户感知的原则。<br>应有完整的交互引导，帮助用户获得关于该场景的目的及操作规范。
+<br><font style="color:#900;font:14px bold;">3.明确的操作反馈</font><br>交互场景对用户的所有操作都应该具有反馈动作。<br>应有完整的交互引导，帮助用户获得关于该场景的目的及操作规范。
+<br><font style="color:#900;font:14px bold;">4.少既是多</font><br>交互设计应做好最核心的10个，放弃其它的90个。<br>减少画面内容的冗余，提炼界面的重要元素，搭建合适的结构，让用户不再望而生畏。</pre>
+          </li>
+	  </ol>
+	</div>
+</body>
+</html>

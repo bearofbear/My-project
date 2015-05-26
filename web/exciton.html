@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>警告提示</title>
+<script type="text/javascript" src="js/1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<section id="alerts" style="width:980px;">
+          <div class="page-header">
+            <h1>警告框 <small>成功、警告和错误消息的样式</small></h1>
+          </div>
+
+          <h2>默认警告框</h2>
+          <p>下面这个基本的警告框是在<code>.alert</code>中包裹任何文本和一个可选的关闭按钮。</p>
+          <div class="bs-docs-example">
+            <div class="alert">
+              <button data-dismiss="alert" class="close" type="button">×</button>
+              <strong>Warning!</strong> Best check yo self, you're not looking too good.
+            </div>
+          </div>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"close"</span><span class="pln"> </span><span class="atn">data-dismiss</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">&amp;times;</span><span class="tag">&lt;/button&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;strong&gt;</span><span class="pln">Warning!</span><span class="tag">&lt;/strong&gt;</span><span class="pln"> Best check yo self, you're not looking too good.</span></li><li class="L3"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+          <h3>关闭按钮</h3>
+          <p>Safari和Opera移动版浏览器上，当使用<code>&lt;a&gt;</code>标签关闭警告框时，除了添加<code>data-dismiss="alert"</code>属性外，还需要包含<code>href="#"</code>属性。</p>
+          <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">"#"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"close"</span><span class="pln"> </span><span class="atn">data-dismiss</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">&amp;times;</span><span class="tag">&lt;/a&gt;</span></li></ol></pre>
+          <p>可选方案是，使用带有data属性的<code>&lt;button&gt;</code>元素，就像此文档中一样。当使用 <code>&lt;button&gt;</code>时，必须包含<code>type="button"</code>属性，否则你将无法执行提交（submit）动作。</p>
+          <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"close"</span><span class="pln"> </span><span class="atn">data-dismiss</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">&amp;times;</span><span class="tag">&lt;/button&gt;</span></li></ol></pre>
+
+          <h3>通过JavaScript代码关闭</h3>
+          <p>使用<a href="./javascript.html#alerts">警告框jQuery插件</a>可以快速、方便的关闭警告框。</p>
+
+
+          <hr class="bs-docs-separator">
+
+
+          <h2>选项</h2>
+          <p>对于较长的信息，通过添加<code>.alert-block</code>类可以增加警告框上下方向的内补（padding）。</p>
+          <div class="bs-docs-example">
+            <div class="alert alert-block">
+              <button data-dismiss="alert" class="close" type="button">×</button>
+              <h4>Warning!</h4>
+              <p>Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+            </div>
+          </div>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-block"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  </span><span class="tag">&lt;button</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"button"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"close"</span><span class="pln"> </span><span class="atn">data-dismiss</span><span class="pun">=</span><span class="atv">"alert"</span><span class="tag">&gt;</span><span class="pln">&amp;times;</span><span class="tag">&lt;/button&gt;</span></li><li class="L2"><span class="pln">  </span><span class="tag">&lt;h4&gt;</span><span class="pln">Warning!</span><span class="tag">&lt;/h4&gt;</span></li><li class="L3"><span class="pln">  Best check yo self, you're not...</span></li><li class="L4"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+
+          <hr class="bs-docs-separator">
+
+
+          <h2>其它</h2>
+          <p>通过添加其它类，可以改变警告框的含义。</p>
+
+          <h3>错误或危险</h3>
+          <div class="bs-docs-example">
+            <div class="alert alert-error">
+              <button data-dismiss="alert" class="close" type="button">×</button>
+              <strong>Oh snap!</strong> Change a few things up and try submitting again.
+            </div>
+          </div>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-error"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+          <h3>成功</h3>
+          <div class="bs-docs-example">
+            <div class="alert alert-success">
+              <button data-dismiss="alert" class="close" type="button">×</button>
+              <strong>Well done!</strong> You successfully read this important alert message.
+            </div>
+          </div>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-success"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+          <h3>信息</h3>
+          <div class="bs-docs-example">
+            <div class="alert alert-info">
+              <button data-dismiss="alert" class="close" type="button">×</button>
+              <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+            </div>
+          </div>
+<pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"alert alert-info"</span><span class="tag">&gt;</span></li><li class="L1"><span class="pln">  ...</span></li><li class="L2"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+
+        </section>
+</body>
+</html>

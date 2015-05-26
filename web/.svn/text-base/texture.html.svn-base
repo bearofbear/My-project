@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>常用质感</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>亚光质感-基础篇</h3></td>
+    </tr>
+    <tr>
+    <td><img src="images/texture_1.jpg" alt="" width="243" height="56"/><p>&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><p class="alarm">*渐变色中浅色至深色H（色调）保持不变，S（饱和度）或B（亮度）跨度不超过10%。（跨度过大会导设计致档次下降）</p>
+      <p class="alarm">&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><h3>亚光质感-增强篇</h3></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/texture_2.jpg" alt="" width="190" height="56" />      </p>
+      <p><img src="images/texture_3.jpg" alt="" width="190" height="56" /></p>
+      <p><img src="images/texture_9.jpg" alt="" width="190" height="56" /></p>
+      <p><img src="images/texture_4.jpg" alt="" width="190" height="56" /></p>      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td class="line"></td>
+    </tr>
+  <tr>
+    <td><h3>&nbsp;</h3>
+    <h3>高光质感-基础篇</h3></td>
+    </tr>
+    <tr>
+    <td><img src="images/texture_5.jpg" alt="" width="243" height="56" />      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><p class="alarm">*由两重渐变构成高光质感H（色调）保持不变，S（饱和度）或B（亮度）跨度不超过10%。</p>
+      <p class="alarm">&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><h3>高光质感-增强篇</h3></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/texture_6.jpg" alt="" width="190" height="56" /></p>
+      <p><img src="images/texture_7.jpg" alt="" width="190" height="58" /></p>
+      <p><img src="images/texture_8.jpg" alt="" width="190" height="56" /></p>      <p>&nbsp;</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

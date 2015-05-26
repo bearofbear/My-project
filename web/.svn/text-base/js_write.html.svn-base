@@ -1,0 +1,25 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>命名：无论变量，函数以及类，都采用驼峰式命名，首字母小写，尽可能语义化和使用英文；拼音亦可，私有变量前面加上"_"。</p>
+				<p>示例：<span class="hl_2">theNameOfFunction</span></p>
+			</li>
+			<li>位置：JS代码尽可能放在页面底部和主体结构之外，确保JS不会影响页面主体的渲染速度，除非涉及到消息处理、统计跟踪以及其他必须内置的理由。</li>
+			<li>格式：script标签中不使用language属性，HTML5文档模式下可以去掉type属性，因为HTML5文档模式下script默认type就是"text/javascript"。<p>如果不是HTML5文档模式，必须用type属性。</p>
+			<p>基于jQuery开发的JS必须在jQuery之后加载。JS代码中非注释部分如果含有中文，必须转换为unicode编码。且最好加上中文注释方便日后维护。</p>
+			<p>可以在Firebug控制台下通过输入"escape:"后面加上要转码的中文快速得到unicode编码，不能有标点符号！</p></li>
+			<li>兼容：JS代码必须兼容<span class="hl_4">IE 6/7/8/9，firefox，chrome，以及主要的第三方浏览器360和搜狗</span>。需要注意的就是DOM结构在不同浏览器中的差异，event对象机制差异，以及一些内置方法的差异。</li>
+			<li>性能：避免使用一些比较消耗资源的方法，例如eval()，避免使用onclick，onfocus进行事件处理，尽量采用jQuery的事件监听机制。</li>
+			<li>变量声明：变量要在函数开始处集中声明，<span class="hl_1">避免全局变量。</span></li>
+		</ol>
+	</div>
+</body>
+</html>

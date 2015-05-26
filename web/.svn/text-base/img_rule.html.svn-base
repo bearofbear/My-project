@@ -1,0 +1,30 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>图片规范</title>
+	<link href="css/front_end.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>所有页面元素类图片均放入img文件夹；</p>
+				<p>测试用图片如商品图片、广告范例先放于img/temp文件夹，并提醒后端开发人员代码嵌入将其删除；</p>
+			</li>
+			<li>图片格式仅限于gif、png、jpg，尽量使用png格式的图片；</li>
+			<li>
+				<p>命名全部用小写英文字母、数字、“_” 的组合；</p>
+				<ul>
+					<li>不得包含汉字、空格、特殊字符；</li>
+					<li>尽量用易懂的词汇, 便于团队其他成员理解；</li>
+					<li>命名分头尾两部分, 用下划线隔开, 比如：<span class="hl_2">ad_left01.gif</span>、<span class="hl_2">btn_submit.gif</span>。</li>
+				</ul>
+			</li>
+			<li>在保证视觉效果的情况下选择最小的图片格式与图片质量, 以减少加载时间；</li>
+			<li>尽量避免使用半透明的png图片。如果要使用，请使用png-8 或者 gif格式保证向前向后兼容；</li>
+			<li>运用css sprite技术集中小的背景图或图标, 减小页面http请求, 但注意, 请务必在对应的sprite psd源图中划参考线, 并保存至img目录下。</li>
+		</ol>
+	</div>
+</body>
+</html>

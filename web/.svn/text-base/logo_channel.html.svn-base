@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>子频道Logo使用规范</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>子频道Logo常见形式</h3>
+      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/logo_channel.jpg" alt="" width="430" height="54" /></p>
+      <p>子频道的字体可以和Logo略有不同，但必须风格一致</p>
+      <p>&nbsp;</p></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/logo_channel2.jpg" alt="" width="637" height="54" /></p>
+      <p>子频道的字体和Logo字体必须相同</p></td>
+    </tr>
+    <tr>
+    <td height="50px"></td>
+    </tr>
+    <tr>
+    <td><h3>子频道Logo规范</h3></td>
+    </tr>
+    <tr>
+    <td><p>（需根据实际Logo制定详细子频道Logo规范）</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

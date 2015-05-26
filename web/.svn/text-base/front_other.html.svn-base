@@ -1,0 +1,16 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>开发过程中严格按分工完成页面, 以提高css复用率, 避免重复开发；</li>
+			<li>减小沉冗代码, 书写所有人都可以看的懂的代码. 简洁易懂是一种美德. 为用户着想, 为服务器着想。</li>
+		</ol>
+	</div>
+</body>
+</html>

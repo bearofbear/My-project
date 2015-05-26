@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+<link rel="stylesheet" type="text/css" href="css/jquery.ui.all.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/jquery.treeview.css" media="all">
+</head>
+<body>
+<ul id="example" class="filetree">
+ 		<li><span><strong><a href="character.html" target="mainFrame">齐家网性格</a></strong></span></li>
+		<li><span><strong><a>用户界面设计规范</a></strong></span>
+			<ul>
+				<li><span><strong>布局Layout</strong></span>
+			        <ul>
+			            <li><span><a href="grid.html" target="mainFrame">常用栅格化布局</a></span></li>
+                        <li><span><a href="grid_mall.html" target="mainFrame">齐家商城栅格化布局</a></span></li>
+                        <li><span><a href="frame.html" target="mainFrame">线框网格布局</a></span></li>
+                        <li><span><a href="noframe.html" target="mainFrame">隐形网格布局</a></span></li>
+                        <li><span><a href="mixframe.html" target="mainFrame">混搭网格布局</a></span></li>
+		          </ul>
+	          </li>
+				<li><span><strong>标志使用Logo</strong></span>
+		        	<ul>
+			        	<li><span><a href="logo_use.html" target="mainFrame">Logo使用规则</a></span></li>
+                        <li><span><a href="logo_channel.html" target="mainFrame">子频道Logo使用规范</a></span></li>
+                      <li><span>用于网络宣传的Logo使用规范（广告/邮件/活动/专题）</span></li>
+		        	</ul>
+                </li>
+                <li><span><strong>广告语使用slogan</strong></span></li>
+				<li><span><strong>色彩color</strong></span>
+		        	<ul>
+			        	<li><span><a href="color.html" target="mainFrame">核心色彩</a></span></li>
+                        <li><span><a href="color_common.html" target="mainFrame">通用色彩</a></span></li>
+                        <li><span><a href="color_auxiliary.html" target="mainFrame">齐家商城主色与辅色</a></span></li>
+			        </ul> 
+		        </li>
+				<li><span><strong>界面设计规范</strong></span>
+			        <ul>
+			        	<li><span><a href="navigation.html" target="mainFrame">导航</a></span></li>
+                        <li><span><a href="title.html" target="mainFrame">标题</a></span></li>
+                        <li><span><a href="button.html" target="mainFrame">按钮</a></span></li>
+                        <li><span><a href="icon.html" target="mainFrame">图标</a></span></li>
+                        <li><span><a href="pop.html" target="mainFrame">弹出框</a></span></li>
+                        <li><span><a href="pop1.html" target="mainFrame">非弹框提示</a></span></li>
+                        <li><span><a href="tips.html" target="mainFrame">验证提示</a></span></li>
+                        <li><span><a href="tips1.html" target="mainFrame">常规提示</a></span></li>
+                        <li><span><a href="list.html" target="mainFrame">列表</a></span></li>
+                        <li><span><a href="comment.html" target="mainFrame">评价</a></span></li>
+                        <li><span><a href="tab.html" target="mainFrame">tab</a></span></li>
+                        <li><span><a href="input.html" target="mainFrame">输入模块</a></span></li>
+                        <li><span><a href="filter.html" target="mainFrame">筛选模块</a></span></li>
+		        	</ul> 
+	        	</li>
+				<li><span><strong>文字font</strong></span>
+		        	<ul>
+		        		<li><span><a href="font_mall1.html" target="mainFrame">家商城文字使用规则</a></span></li>
+                        <li><span><a href="font.html" target="mainFrame">通用网页字使用规则</a></span></li>
+		         	</ul> 
+	         	</li>
+				<li><span><strong>按钮button</strong></span>
+			        <ul>
+		        		<li><span>按钮设计规范</span></li>
+                        <li><span>按钮使用规则</span></li>
+		         	</ul> 
+	        	</li>
+				<li><span><strong>图标icon</strong></span>
+			        <ul>
+		         		<li><span>图标设计规范</span></li>
+                        <li><span>图标使用规则</span></li>
+		        	</ul> 
+	        	</li>
+				<li><span><strong>窗口window</strong></span>
+		        	<ul>
+	        			<li><span>窗口设计规范</span></li>
+                        <li><span>窗口使用规则</span></li>
+	        		</ul> 
+        		</li>
+          </ul>
+  <li><span ><strong>前端开发规范</strong></span>
+			<ul>
+				<li><span><strong><a href="html&CSS.html" target="mainFrame">html及css</a></strong></span>
+					<ul>
+				        <li><span><a href="html_file.html" target="mainFrame">文件规范</a></span></li>
+						<li><span><a href="html_write.html" target="mainFrame">html书写规范</a></span></li>
+                        <li><span><a href="css_rule.html" target="mainFrame">css书写规范</a></span></li>
+						<li><span><a href="img_rule.html" target="mainFrame">图片规范</a></span></li>
+                        <li><span><a href="annotation_rule.html" target="mainFrame">注释规范</a></span></li>
+						<li><span><a href="dev_tool.html" target="mainFrame">开发及测试工具的约定</a></span></li>
+                        <li><span><a href="front_other.html" target="mainFrame">其他规范</a></span></li>
+				  </ul>
+			  </li>
+				<li><span ><strong>Javascript</strong></span>
+					<ul>
+					    <li><span><a href="js_doc.html" target="mainFrame">文件规范</a></span></li>
+						<li><span><a href="js_write.html" target="mainFrame">书写规范</a></span></li>
+                        <li><span><a href="js_annotation.html" target="mainFrame">注释规范</a></span></li>
+				  </ul>
+			  </li>
+              <li><span ><strong>页面常见问题及解决方案</strong></span></li>
+	 </ul>
+  </li>           
+  <li><span ><strong>交互设计规范</strong></span>
+			<ul>
+				<li><span ><strong>页面信息</strong></span>
+					<ul>
+				       <li><span>标题规范</span></li>
+						<li><span>新窗口连接规范</span></li>
+                        <li><span>图片规范</span></li>
+				  </ul>
+			  </li>
+				<li><span ><strong>交互信息</strong></span>
+					<ul>
+					    <li><span>提示信息</span></li>
+						<li><span>操作信息</span></li>
+                        <li><span>结果信息</span></li>
+				  </ul>
+			  </li>
+              <li><span><strong>通用控件</strong></span></li>
+	</ul>
+  </li>
+  <li><span ><strong>广告/邮件/活动/专题</strong></span>
+			<ul>
+				<li><span ><strong>广告</strong></span>
+					<ul>
+				        <li><span>全站广告位</span></li>
+						<li><span><a href="ad1.html" target="mainFrame">首页活动广告规范</a></span></li>
+                        <li><span><a href="ad2.html" target="mainFrame">首页楼层广告背景图规范</a></span></li>
+                        <li><span><a href="label.html" target="mainFrame">促销信息和标签</a></span></li>
+                        <li><span>广告审核机制</span></li>
+				  </ul>
+			  </li>
+				<li><span ><strong>邮件EDM</strong></span>
+					<ul>
+					    <li><span>邮件模板</span></li>
+						<li><span>邮件设计规则</span></li>
+                        <li><span>邮件制作规范</span></li>
+                        <li><span>邮件审核机制</span></li>
+				  </ul>
+			  </li>
+              <li><span ><strong>活动页</strong></span>
+					<ul>
+				        <li><span><a href="activity.html" target="mainFrame">活动页模板</a></span></li>
+						<li><span><a href="process.html" target="mainFrame">订购流程</a></span></li>
+                        <li><span>活动页制作规范</span></li>
+                        <li><span>活动页审核机制</span></li>
+				  </ul>
+			  </li>
+				<li><span ><strong>专题页</strong></span>
+					<ul>
+					    <li><span>专题页模板</span></li>
+						<li><span>专题页设计规则</span></li>
+                        <li><span>专题页制作规范</span></li>
+                        <li><span>专题页审核机制</span></li>
+				  </ul>
+			  </li>
+	</ul>
+  </li>
+    <li><span ><strong>工作流程</strong></span>
+			<ul>
+              <li><span>开发项目</span></li>
+              <li><span>日常维护</span></li>
+              <li><span>紧急项目</span></li>
+	        </ul>
+    </li>
+    <li><span ><strong>审核机制</strong></span>
+			<ul>
+              <li><span>开发项目审核机制</span></li>
+              <li><span>广告审核机制</span></li>
+              <li><span>邮件审核机制</span></li>
+              <li><span>活动页审核机制</span></li>
+              <li><span>专题页审核机制</span></li>
+	        </ul>
+   </li>
+</ul>
+
+  
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>    
+<script type="text/javascript" src="js/jquery.treeview.js"></script>
+	<script type="text/javascript">
+		$("#example").treeview();
+		
+		
+    </script>
+</body>
+</html>

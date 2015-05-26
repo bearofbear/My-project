@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>家商城文字使用规则</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>家商城文字使用规则</h3></td>
+    </tr>
+    <tr>
+    <td><table width="1152" height="152" border="0" background="images/font_1.png" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="169" rowspan="2">&nbsp;</td>
+        <td><table width="100%" border="0">
+          <tr>
+            <td align="center"><p style="color:#666; font-size:12px">默认文字</p></td>
+            <td align="center"><p style="color:#333; font-size:12px">重点文字</p></td>
+            <td align="center"><p style="color:#999; font-size:12px">注释的文字</p></td>
+            <td align="center"><p style="color:#a40000; font-size:12px">醒目的文字</p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #666</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #333</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #999</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #a40000</p></td>
+          </tr>
+        </table></td>
+        <td width="270" rowspan="2"><img src="images/font_1_tips.png" alt="" width="270" height="59" /></td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0">
+          <tr>
+            <td align="center"><p style="color:#005aa0; font-size:12px">文字链</p></td>
+            <td align="center"><p style="color:#a40000; font-size:12px">文字链hover</p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #005aa0</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #a40000</p></td>
+          </tr>
+        </table></td>
+        </tr>
+    </table>
+    
+    <br> <br> 
+    <table width="1152" height="252" border="0" background="images/font_2.png" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="169">&nbsp;</td>
+        <td><table width="100%" border="0">
+          <tr>
+            <td align="center"><p style="color:#666; font-size:12px"><b>小标题</b></p></td>
+            <td align="center"><p style="color:#333; font-size:12px"><b>强调的小标题</b></p></td>
+            <td align="center">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 加粗 12px #666</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 加粗 12px #333</p></td>
+            <td align="center">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center"><p style="color:#666; font-size:14px"><b>中标题</b></p></td>
+            <td align="center"><p style="color:#333; font-size:14px"><b>强调的中标题</b></p></td>
+            <td align="center"><p style="color:#a40000; font-size:14px"><b>活动标题</b></p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 加粗 14px #666</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 加粗 14px #333</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 加粗 14px #a40000</p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="color:#333; font-size:17px; font-family:微软雅黑">A/B类商品标题</p>
+              <p style="color:#333; font-size:20px; font-family:微软雅黑">C类商品标题</p></td>
+            <td align="center"><p style="color:#af8334; font-size:24px; font-family:微软雅黑"><b>大标题</b></p></td>
+            <td align="center"><p style="color:#a40000; font-size:24px; font-family:微软雅黑"><b>大标题</b></p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">微软雅黑 17px-20px #333</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">微软雅黑 加粗 24px #af8334</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">微软雅黑 加粗 24px #a40000</p></td>
+          </tr>
+        </table></td>
+        <td width="270"><img src="images/font_2_tips.png" alt="" width="270" height="49" /></td>
+      </tr>
+      </table></td>
+    </tr>
+</table>
+
+    <br> <br> 
+<table width="1152" height="92" border="0" background="images/font_3.png" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="169" rowspan="2">&nbsp;</td>
+        <td></td>
+        <td width="270" rowspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0">
+          <tr>
+            <td colspan="2" align="center"><span style="color:#333; font-size:12px">首页 &gt; 我的齐家 &gt;</span> <span style="color:#999; font-size:12px">账户信息</span></td>
+            <td align="center"><span style="color:#999; font-size:12px">hover:</span> <span style="color:#a40000; font-size:12px"><u>店铺管理首页</u></span> <span style="color:#333; font-size:12px">&gt; </span><span style="color:#a40000; font-size:12px"><u>商品管理</u></span> <span style="color:#333; font-size:12px">&gt;</span> <span style="color:#999; font-size:12px">运费模板</span></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #333</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #999</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #a40000</p></td>
+          </tr>
+        </table></td>
+  </tr>
+</table>
+
+    <br> <br> 
+<table width="1152" height="152" border="0" background="images/font_4.png" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="169" rowspan="2">&nbsp;</td>
+        <td></td>
+        <td width="270" rowspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0">
+          <tr>
+            <td align="center"><p style="color:#666; font-size:12px"> <span style="color:#ff2a00; font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold">99999.00</span>元/平方</p></td>
+            <td align="center"><p style="color:#333; font-size:12px">买就送<span style="color:#1d8a00; font-family:Tahoma, Geneva, sans-serif; font-size:14px; font-weight:bold">79</span>分</p></td>
+            <td align="center"><p style="color:#999; font-size:12px">已售出:<span style="color:#af8334; font-family:Tahoma, Geneva, sans-serif; font-weight:bold">2887</span></p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">Tahoma 加粗 14px #ff2a00</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">Tahoma 加粗 14px #1d8a00</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">Tahoma 加粗 12px #af8334</p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#a40000;color:#fff; font-weight:bold; font-size:12px">成交记录(<span style="color:#ffde00; font-family:Tahoma, Geneva, sans-serif;">9999999</span>)</p></td>
+            <td align="center"><p style="color:#666; font-size:12px">冻结的积分<span style="color:#007fd7; font-family:Tahoma, Geneva, sans-serif; font-weight:bold">900</span></p></td>
+            <td align="center"><p style="color:#666; font-size:12px"><span style="color:#ff0000;">*</span>必填项</p></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">Tahoma 加粗 12px #ffde00</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">Tahoma 加粗 12px #007fd7</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">#ff0000</p></td>
+          </tr>
+        </table></td>
+        </tr>
+    </table>
+    
+    <br> <br>
+    <table width="1152" height="152" border="0" background="images/font_5.png" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="169" rowspan="2">&nbsp;</td>
+        <td></td>
+        <td width="270" rowspan="2">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="100%" border="0">
+          <tr>
+            <td align="center"><p style="color:#2ea300; font-size:12px"> 交易成功</p></td>
+            <td align="center"><p style="color:#007fd7; font-size:12px">已冻结</p></td>
+            <td align="center"></td>
+          </tr>
+          <tr>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #2ea300</p></td>
+            <td align="center"><p style="background:#bbb;color:#fff;">宋体 12px #007fd7</p></td>
+            <td align="center"></td>
+          </tr>
+          <tr>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+          </tr>
+          <tr>
+            <td align="center"></td>
+            <td align="center"></td>
+            <td align="center"></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+    
+    
+</body>
+</html>

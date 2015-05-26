@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>
+				<p>确定链接类型：</p>
+				<pre><font style="color:#900;font:14px bold;">1.视觉操作型</font><br>特指转移视觉类，带有操作、进入类属性的链接。<br>如：导航、登录、退出、修改、下一步等，用户经过这类链接可进入下一步操作。
+<br><font style="color:#900;font:14px bold;">2.查看阅读型</font><br>特指解疑、阅读、查看、搜索类，有一定内容，点击可查看更多属性的链接。<br>如：文章缩略标题、产品链接、介绍查看等类，用户经过这类链接可满足一定求知欲。</pre>
+			</li>
+            <li>
+				<p>场景链接原则：</p>
+			  <pre><font style="color:#900;font:14px bold;">1.当前页跳转</font><br>当链接为“视觉操作型”链接时，点击直接刷新当前页面进行跳转。<br><br><font style="color:#900;font:14px bold;">2.新建标签页跳转</font><br>当链接为“查看阅读型”链接时，点击新建新标签页面进行跳转。</pre>
+			</li>
+           </ol>
+	</div>
+</body>
+</html>

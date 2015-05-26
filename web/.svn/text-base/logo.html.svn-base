@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Logo使用规则</title>
+<link href="css/base.css" rel="stylesheet" />
+</head>
+<body>
+<table width="95%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td><h3>Logo的预留空间</h3></td>
+    </tr>
+    <tr>
+    <td><p><img src="images/logo_1.jpg" alt="" width="265" height="152" /></p></td>
+    </tr>
+    <tr>
+    <td><p class="alarm">*Logo四周至少留10px空间</p></td>
+    </tr>
+    <tr>
+    <td height="60px"><h3>Logo使用的最小尺寸</h3></td>
+    </tr>
+    <tr>
+    <td><p>Logo等比缩小到最小文字肉眼可识别的大小，为Logo可使用的最小尺寸</p></td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>

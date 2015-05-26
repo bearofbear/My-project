@@ -1,0 +1,21 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/front_end.css" />
+</head>
+<body>
+	<div class="page">
+		<ol>
+			<li>全站采用jQuery作为JS库，文件位于ui/js目录下，版本1.7.2，<p>因为jquery1.8去掉了兼容IE6的代码，所以在没得到确认放弃IE6的情况下不允许私自使用此版本；</p></li>
+			<li>全站公用comm.js，最基本和最通用的脚本，包含了常用效果，位于ui/js目录下；</li>
+			<li>JS代码尽可能基于jQuery进行构建；</li>
+			<li>JS代码必须采用UTF-8编码；</li>
+			<li>如有新开发的JS文件，统一放在ui/js目录下；</li>
+			<li>新开发JS文件命名最好能够说明功能和使用的频道；</li>
+			<li>JS文件上线之前必须经过压缩。</li>
+		</ol>
+	</div>
+</body>
+</html>
